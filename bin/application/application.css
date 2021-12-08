@@ -1,0 +1,46 @@
+#outputTextField{
+	-fx-font-size:40;
+	-fx-font-family:"Arial";
+	-fx-font-weight: bold;
+	-fx-text-alignment: right;
+}
+
+#outputTextField *.text{
+	-fx-text-alignment: right;
+}
+
+#historyTextArea *.text{
+	-fx-text-alignment: right;
+}
+#historyTextArea{
+	-fx-font-size: 15;
+	-fx-font-family: "Arial";
+	-fx-font-weight: bold;
+	
+}
+.button{
+	-fx-background-color: #edece8;
+	-fx-border-color: #b8b3a5;
+	-fx-font-size: 15;
+	-fx-font-weight: bold;
+}
+.button:hover{
+	-fx-background-color:#c4c3bc;
+}
+.label{
+	-fx-font-size:30;
+	-fx-font-weight: bold;
+	-fx-text-fill: #16a842;
+	-fx-alignment: center;
+}
+.functionButtons{
+	-fx-background-color: #0ee34e;
+}
+.functionButtons:hover{
+	-fx-background-color: #16a842;
+}
+
+
+
+
+

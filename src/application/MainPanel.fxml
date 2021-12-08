@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="372.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainPanelController">
+   <children>
+      <Label layoutX="19.0" layoutY="32.0" text="X:" />
+      <Label layoutX="19.0" layoutY="68.0" text="Y:" />
+      <Label layoutX="9.0" layoutY="105.0" text="Type:" />
+      <TextField fx:id="textFieldX" layoutX="62.0" layoutY="28.0" prefHeight="26.0" prefWidth="196.0" promptText="Value of X" />
+      <TextField fx:id="textFieldY" layoutX="62.0" layoutY="64.0" prefHeight="26.0" prefWidth="196.0" promptText="Value of Y" />
+      <ChoiceBox fx:id="typeChoiceBox" layoutX="61.0" layoutY="101.0" prefHeight="26.0" prefWidth="196.0" />
+      <TextArea fx:id="outputTextArea" editable="false" layoutX="25.0" layoutY="215.0" prefHeight="134.0" prefWidth="277.0" />
+      <Button fx:id="calculateButton" layoutX="78.0" layoutY="156.0" mnemonicParsing="false" onAction="#calculateOnButtonClick" prefHeight="30.0" prefWidth="176.0" text="Calculate" />
+            <Button fx:id="roundButtonX" layoutX="275.0" layoutY="28.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" />
+      <Button fx:id="roundButtonY" layoutX="275.0" layoutY="64.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" />
+   </children>
+</Pane>
